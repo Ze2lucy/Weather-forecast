@@ -3,40 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    ">
     <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Cape Town</h1>
-        <p>
-          Saturday 13:45, scattered cloud
-          <br />
-          Humdity: 60%, Wind: 10km/h
-        </p>
-      </div>
-      <div>🌤️ 12°C</div>
-    </main>
+    <div class="weather-container">
+      <h1>Weather App</h1>
+      <p>Get the latest weather updates for your city!</p>
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Cape Town</h1>
+          <p>
+            Saturday 13:45, scattered cloud
+            <br />
+            Humdity: 60%, Wind: 10km/h
+          </p>
+        </div>
+        <div>🌤️ 12°C</div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Ze2lucy" target="_blank">Zethu Sithole</a>
-      hosted on
-      <a href="https://github.com/Ze2lucy/Weather-forecast" target="_blank"
-        >GitHub
-      </a>
-      and website hosted
-      <a
-        href="https://forecastweather-app-shecodes.netlify.app/"
-        target="_blank"
-        >on Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Ze2lucy" target="_blank">Zethu Sithole</a>
+        hosted on
+        <a href="https://github.com/Ze2lucy/Weather-forecast" target="_blank"
+          >GitHub
+        </a>
+        and website hosted
+        <a
+          href="https://forecastweather-app-shecodes.netlify.app/"
+          target="_blank"
+          >on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
