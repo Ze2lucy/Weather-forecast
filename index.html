@@ -16,24 +16,33 @@
   </head>
   <body>
     <div class="weather-container">
-      <h1>Weather App</h1>
-      <p>Get the latest weather updates for your city!</p>
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Cape Town</h1>
-          <p>
-            Saturday 13:45, scattered cloud
-            <br />
-            Humdity: 60%, Wind: 10km/h
-          </p>
+        <div class="data-container">
+          <div>
+            <h1 class="city-container">Cape Town</h1>
+            <p class="details-container">
+              Saturday 13:45, scattered cloud
+              <br />
+              Humdity: <strong>60%</strong>, Wind: <strong>10km/h</strong>
+            </p>
+          </div>
+          <di class="weather-icon-container">
+            <div class="icon-container">🌤️</div>
+            <div class="temp-value-container">12</div>
+            <div class="unit-container">°C</div>
+          </div>
         </div>
-        <div>🌤️ 12°C</div>
       </main>
 
       <footer>
