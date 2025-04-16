@@ -37,18 +37,24 @@ a {
 }
 .weather-icon-container {
   display: flex;
+  align-items: center;
+  gap: 1px;
 }
 .temp-value-container {
   font-size: 88px;
+  margin-left: 0px;
+  line-height: 88px;
   font-weight: bold;
+  margin: 0;
 }
 .icon-container {
-  font-size: 44px;
-  margin-top: 22px;
-  margin-left: 10px;
+  font-size: 48px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
 }
 .unit-container {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 28px;
 }
 
